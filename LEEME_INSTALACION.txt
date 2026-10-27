@@ -1,0 +1,21 @@
+RO CONTROL DE LLAMADAS — PWA V4
+
+INSTALAR EN ANDROID
+1. Descomprime el ZIP, sin cambiar los nombres ni las carpetas.
+2. Publica TODO el contenido de la carpeta en un alojamiento HTTPS (por ejemplo, Netlify Drop: https://app.netlify.com/drop). En Netlify Drop arrastra la carpeta RO_Control_Llamadas_PWA_V4 o el ZIP si la interfaz lo permite.
+3. Abre la URL https://... en Chrome del teléfono Honor.
+4. Menú ⋮ > Instalar aplicación (o Agregar a pantalla principal, si aparece).
+5. La aplicación ya instalada puede funcionar sin conexión tras cargarla en línea una vez.
+
+TRASLADAR DATOS V3
+En tu V3 pulsa Respaldar todo (JSON) y guarda el archivo. En la PWA instalada usa Restaurar JSON. Como cambia la dirección/origen de almacenamiento, los datos previos no se trasladan solos.
+
+PRECAUCIONES
+Los registros contienen teléfonos y nombres: utiliza alojamiento privado o restringe el acceso antes de compartir la URL. Una PWA estática no incluye cuentas, contraseñas ni sincronización. La información se almacena LOCALMENTE en cada navegador/dispositivo. Genera respaldos JSON frecuentes. El HTML y los datos iniciales son visibles para cualquiera que tenga acceso a la dirección publicada; si necesitas privacidad real, deberemos crear autenticación y backend.
+Los recordatorios no funcionan cuando la aplicación está cerrada. El dictado depende del navegador, permisos y conectividad.
+
+VERSIÓN 6: corrige inicialización del año comercial, muestra el directorio en tarjetas para Android y repara búsqueda de mantenimiento.
+Si usaste V5 desde una ruta content:// en Android, los datos se guardan asociados al navegador/origen. Haz primero una copia de respaldo JSON en V5 si tienes registros adicionales.
+Para instalar en Android como PWA: publicar la carpeta completa en HTTPS. Conservar mismo sitio y ruta para conservar almacenamiento. No publicar JSON con teléfonos en una web pública.
+
+V8: Titulo Maritza Control de Llamadas en una sola linea, tipografia responsiva.
